@@ -1,5 +1,4 @@
-FROM node: alpine
-# set working direction
+FROM node:alpine
 WORKDIR /app
 ENV PATH /app/node_modules/.bin:$PATH
 COPY package.json ./
